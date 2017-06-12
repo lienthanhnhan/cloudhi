@@ -30,7 +30,7 @@
 		width: 60%;
 	}
 </style>
-<div id="container">
+<form id="container" action="register">
 	<h3 style="color: #fff; background-color: #6a7fef; padding: 15px 0 15px 10px; border-bottom: 1px solid #D0D0D0;">Đăng ký sử dụng dịch vụ</h3>
 
 	<div id="body">
@@ -122,4 +122,6 @@
 	  		<button type="submit" class="btn btn-primary">Submit</button>
   		</div>
 	</div>
-</div>
+</form>
+<script>
+</script>

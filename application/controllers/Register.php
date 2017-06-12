@@ -20,8 +20,14 @@ class Register extends CI_Controller {
 	 */
 	public function index()
 	{
-		$this->load->view('header');
-		$this->load->view('register');
-		$this->load->view('footer');
+//	    if($_REQUEST) {
+//            var_dump($_REQUEST);
+//        }else{
+            $this->load->view('header');
+            $this->load->viaew('register');
+            $this->load->view('footer');
+//        }
 	}
+
+
 }
